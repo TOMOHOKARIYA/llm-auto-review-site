@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>llm-auto-review</title>
+<style>
+  :root { --fg: #1f2328; --bg: #ffffff; --muted: #59636e; --link: #0969da; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #e6edf3; --bg: #0d1117; --muted: #9198a1; --link: #4493f8; } }
+  body { margin: 0; padding: 32px 16px; background: var(--bg); color: var(--fg);
+         font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin: 0 0 .5rem; }
+  p.lead { color: var(--muted); margin-top: 0; }
+  a { color: var(--link); }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>llm-auto-review</h1>
+  <p class="lead">Google ドキュメントへのレビュー指摘を、コメントと提案として書き込む個人用ツール</p>
+
+  <h2>概要</h2>
+  <p>llm-auto-review は、開発者本人が自分の Google ドキュメント（教材原稿など）を校閲するために使う、個人用のローカルツールです。AI アシスタントが作成したレビュー指摘を、Google Docs API を使って文書の該当箇所へコメントまたは提案として追加します。</p>
+  <p>一般公開されたサービスではありません。利用者は開発者本人に限られます。</p>
+
+  <h2>Google アカウントで許可を求める範囲</h2>
+  <ul>
+    <li><strong>Google ドキュメントの表示・編集</strong>：指定した文書の本文を読み取り、コメントと提案を追加するため</li>
+    <li><strong>メールアドレスの表示</strong>：想定したアカウントでログインしているかを確認するため</li>
+  </ul>
+
+  <p><a href="privacy.html">プライバシーポリシー</a></p>
+
+  <h2 lang="en">About (English)</h2>
+  <p lang="en">llm-auto-review is a personal, locally run tool used only by its developer. It reads the developer's own Google Docs and adds review comments and suggestions through the Google Docs API. It is not offered as a service to other users.</p>
+
+  <footer>連絡先：<a href="mailto:design_horde78@icloud.com">design_horde78@icloud.com</a></footer>
+</main>
+</body>
+</html>
